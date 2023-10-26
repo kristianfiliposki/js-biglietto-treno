@@ -6,7 +6,7 @@ const youngprice=price * 0.4;
 
 
 if(eta < 18){
-    document.getElementById("prezzo").innerHTML=oldprice;
-} else if (eta > 18){
-    document.getElementById("prezzo").innerHTML=youngprice;
-}
+    document.getElementById("prezzo").innerHTML= "${oldprice}" ;
+} 
+else if (eta > 18) {
+    document.getElementById("prezzo").innerHTML=  "(${youngprice})" ;}
